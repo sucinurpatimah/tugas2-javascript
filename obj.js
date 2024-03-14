@@ -11,6 +11,20 @@
     3. Tampilkan data object tersebut pada terminal
 */
 
+//cara lain dari kak farhan menggunakan ''
+
+// var biodata = {
+//     nama : "Budiwan",
+//     umur : 15,
+//     'tanggal lahir' : "12/01/2005",
+//     'tempat tinggal' : "Jalan Mawar Putih",
+//     domisili : "Bekasi",
+//     status : "Jomblo",
+//     pendidikan : "Universitas",
+// };
+
+// console.log (biodata);
+
 var biodata = {
     nama: "Budiman",
     umur: 15,

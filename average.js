@@ -11,8 +11,13 @@ var arr = [
 var total = 0;
 
 for (var i = 0; i < arr.length; i++) {
-  total += arr[i];
+  total = total + arr[i];
 }
 
-var average = total / arr.length;
-console.log("Nilai rata - rata = " + average);
+// cara lain dari kak farhan
+// arr.forEach(function (item){
+//   total = total + item;
+//   });
+
+total = total / arr.length;
+console.log("Nilai rata - rata = " + total);
